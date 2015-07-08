@@ -1,4 +1,5 @@
 # 组合和继承–概述 #
+
 在前面我们介绍了 Scala 面向对象的一些基本概念
 
 - [Scala开发教程(4): 类和对象 (一)](http://www.imobilebbs.com/wordpress/archives/date/2013/10/07)

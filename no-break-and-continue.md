@@ -1,4 +1,5 @@
 # 没有“break”和“continue”的日子 #
+
 你也许注意到到目前为止，我们介绍 Scala 的内置的控制结构时，没有提到使用 break，和 continue。Scala 特地没有在内置控制结构中包含 break 和 continue 是因为这两个控制结构和函数字面量有点格格不入，函数字面量我们将在后面介绍，函数字面量和其它类型字面量，比如数值字面量  4，5.6 相比，他们在 Scala 的地位相同。
 
 我们很清楚 break 和 continue 在循环控制结构中的作用，Scala 内置控制结构特地去掉了 break 和 continue，是为了更好的适应函数化编程。不同你不用担心，Scala 提供了多种方法来替代 break 和 continue 的作用。
@@ -21,7 +22,6 @@ while(i <args.length) {
  }
  ```
  
-
 这段 Java 代码实现的功能是从一组字符串中寻找以“ .scala ”结尾的字符串，但跳过以“-”开头的字符串。
 
 下面我们使用 if 和 boolean 变量，逐句将这段实现使用 Scala 来实现（不使用 break 和continue)如下：
@@ -50,7 +50,6 @@ def searchFrom(i:Int) : Int =
   else searchFrom(i+1)
 val i = searchFrom(0)
 ```
-
 
 在函数化编程中使用递归函数来实现循环是非常常见的一种方法，我们应用熟悉使用递归函数的用法。
 

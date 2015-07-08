@@ -1,5 +1,6 @@
-# Scala基本数据类型的实现方法 #
-Scala 的基本数据类型是如何实现的？实际上，Scala 以与 Java 同样的方式存储整数：把它当作 32 位的字类型。这对于有效使用 JVM 平台和与 Java 库的互操作性方面来说都很重要。标准的操作如加法或乘法都被实现为数据类型基本运算操作。然而，当整数需要被当作（ Java ）对象看待的时候，Scala 使用了“备份”类 java.lang.Integer。如在整数上调用 toString 方法或者把整数赋值给 Any 类型的变量时，就会这么做，需要的时候，Int 类型的整数能自动转换为 java.lang.Integer 类型的“装箱整数(boxed integer)”。
+# Scala 基本数据类型的实现方法 #
+
+Scala 的基本数据类型是如何实现的？实际上，Scala 以与 Java 同样的方式存储整数：把它当作 32 位的字类型。这对于有效使用 JVM 平台和与 Java 库的互操作性方面来说都很重要。标准的操作如加法或乘法都被实现为数据类型基本运算操作。然而，当整数需要被当作（Java）对象看待的时候，Scala 使用了“备份”类 java.lang.Integer。如在整数上调用 toString 方法或者把整数赋值给 Any 类型的变量时，就会这么做，需要的时候，Int 类型的整数能自动转换为 java.lang.Integer 类型的“装箱整数(boxed integer)”。
 
 这些听上去和 Java 的 box 操作很像，实际上它们也很像，但这里有一个重要的差异，Scala 使用 box 操作比在 Java 中要少的多：
 

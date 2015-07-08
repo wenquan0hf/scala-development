@@ -1,4 +1,5 @@
-# 隐含的import #
+# 隐含的 import #
+
 Scala 缺省为每个文件添加如下几个 package。 这几个包无需明确指明。
 
 ```

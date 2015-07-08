@@ -1,4 +1,5 @@
-# Scala的类层次关系 #
+# Scala 的类层次关系 #
+
 前面我们介绍了 Scala 的类的继承，本篇我们介绍 Scala 语言自身定义的类的层次关系，在 Scala 中，所有的类都有一个公共的基类称为 Any，此外还定义了所有类的子类 Nothing，下面的图给出的 Scala定义的类层次关系的一个概要：
 
 ![](images\16.png)
@@ -57,7 +58,6 @@ res4: Int = 3
 scala> (-3).abs
 res5: Int = 3
 ```
-
 
 这里解释其工作原理：方法 min，max，until，to 和 abs 都定义在类 scala.runtime.RichInt 里，并且有一个从类 Int 到 RichInt 的隐式转换。当你在 Int 上调用没有定义在 Int 上但定义在 RichInt 上的方法时，这个转换就被应用了。
 

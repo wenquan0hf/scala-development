@@ -1,4 +1,5 @@
 # 组合和继承–定义参数化成员变量 #
+
 我们回到前面定义的类 ArrayElement，它有一个参数 conts，其唯一的目的是用来复制到 contents 成员变量。而参数名称 conts 是为了让它看起来和成员变量 contents 类似，而有不至于和成员变量名冲突。
 
 Scala 支持使用参数化成员变量，也就是把参数和成员变量定义合并到一起来避免上述代码：
@@ -33,7 +34,6 @@ class Tiger (
   private var age: Int
 ) extends Cat
 ```           
-
 
 这段代码中 Tiger 的定义其实为下面类定义的一个缩写：
 

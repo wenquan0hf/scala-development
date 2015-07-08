@@ -1,4 +1,5 @@
-# 开始神奇的Scala编程之旅 #
+# 开始神奇的 Scala编程之旅 #
+
 前面写了四篇 Scala Play Framework 开发教程，起了个头，个人觉得 Scala 应用会越来越广泛，因此开通了 Scala 中文社区论坛以达到推广 Scala 开发的目的。该论坛设立了 Scala 编程（包括Slick，Akka 编程），Scala 开发工具（ Scala IDE，IntelliJ IDEA 等），目前使用Scala最广泛的应用是开发 Web 应用，所有论坛列出了使用 Play Framework 开发 Web 应用的一些相关技术（HTML5， CSS3，Kendo UI/jQuery，JavaScript/CoffeeScript ，LESS 和R ESTFul Web服务），和常见的数据库服务器（MySQL和SQL Server），以后可能还会添加一些相关平台如（Scaladin，Android，Spring)。下面是目前论坛的主要板块：
 
 ![](images\2.png) 

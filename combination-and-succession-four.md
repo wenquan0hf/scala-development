@@ -1,4 +1,5 @@
 # 组合和继承–扩展类 #
+
 我们需要能够创建新的布局元素对象，前面定义的 Element 为抽象类，不能直接用来创建该类的对象，因此我们需要创建 Element 的子类。这些子类需要实现 Element 类定义的抽象函数。
 
 Scala 中派生子类的方法和 Java一样，也是通过 extends 关键字。比如定义一个 ArrayElement:
@@ -28,7 +29,6 @@ ae: ArrayElement = ArrayElement@729c1e43
 scala> ae.width
 res0: Int = 5
 ```
-
 
 派生也意味着子类的值可以用在任何可以使用同名父类值的地方，比如：
 

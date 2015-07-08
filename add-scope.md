@@ -1,6 +1,9 @@
 # 为访问控制修饰符添加作用域 #
-Scala 的访问修饰符可以添加作用域参数。作用域的语法如下：  
+
+Scala 的访问修饰符可以添加作用域参数。作用域的语法如下：
+  
 private[x]或protected[x]  
+
 其中 x 代表某个包，类或者对象，表示可以访问这个 Private 或的 protected 的范围直到 X。
 
 通过为访问修饰符添加作用域参数，可以非常精确的控制所定义的类型能够被其它类型访问的范围。尤其是可以支持 Java 语言支持的 package private，package protected 等效果。
