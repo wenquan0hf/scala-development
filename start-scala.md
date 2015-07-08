@@ -2,7 +2,7 @@
 
 前面写了四篇 Scala Play Framework 开发教程，起了个头，个人觉得 Scala 应用会越来越广泛，因此开通了 Scala 中文社区论坛以达到推广 Scala 开发的目的。该论坛设立了 Scala 编程（包括Slick，Akka 编程），Scala 开发工具（ Scala IDE，IntelliJ IDEA 等），目前使用Scala最广泛的应用是开发 Web 应用，所有论坛列出了使用 Play Framework 开发 Web 应用的一些相关技术（HTML5， CSS3，Kendo UI/jQuery，JavaScript/CoffeeScript ，LESS 和R ESTFul Web服务），和常见的数据库服务器（MySQL和SQL Server），以后可能还会添加一些相关平台如（Scaladin，Android，Spring)。下面是目前论坛的主要板块：
 
-![](images\2.png) 
+![](images/2.png) 
 
 论坛新开通，目前还没有太多的内容，希望得到广大对 Scala 有兴趣的技术人员的支持，在今后的三年逐渐使得论坛成为 Scala 中文的主要技术论坛。
 
@@ -23,11 +23,11 @@ object HelloWorld {
 这段代码对于Java程序员来说似承相识，它包含一个 main 方法，用来打印 “Hello,World” 这个问候语。
 这段代码，你可以使用命令行交互式执行：
 
-![](images\3.png) 
+![](images/3.png) 
 
 如果使用 ScalaKata.com 在线执行：
 
-![](images\4.png) 
+![](images/4.png) 
 
 如果你不想使用这种交换式运行方式，你可以使用任何文本编辑器或是使用 IDE 来运行 Scala 代码。如果使用普通的编辑器，在把代码保存为 HelloWorld.scala 之后，可以在命令行使用 scalac (和 javac 使用方法类似）来编译 Scala 代码。
 
@@ -65,4 +65,4 @@ object HelloWorld extends App {
 HelloWorld.main(null)
 ```
 
-![](images\5.png) 
+![](images/5.png) 
