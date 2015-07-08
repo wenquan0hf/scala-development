@@ -35,7 +35,7 @@ resX 变量名可以用在之后的表达式中，比如 此时 res0=3，如果�
  res1: Int =9
 ```
 
-![](images\7.jpg) 
+![](images/7.png) 
 
 ## 第二步：定义一些变量 ##
 
@@ -115,7 +115,7 @@ scala printargs.scala I like Scala
 
 则显示：
 
-![](images\8.jpg) 
+![](images/8.png) 
 
 这里要注意的是 Scala 不支持＋＋i,i++ 运算符，因此需要使用 i＋＝1 来加一。 这段代码看起来和 Java 代码差不多，实际上 while 也是一个函数，你自动可以利用 scala 语言的扩展性，实现while 语句，使它看起来和 Scala 语言自带的关键字一样调用。Scala访问数组的语法是使用()而非[]。
 
