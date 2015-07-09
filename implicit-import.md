@@ -17,4 +17,4 @@ StringBuilder 为 scala.StringBuilde r而非 java.lang.StringBuilder。
 
 Predef 为一对象（非报名），因此可以直接使用 Predef 对象定义的方法（静态引用）。因此在写代码之前了解 Scala 包和 Predef 定义的功能尤其重要。
 
-![](images\18.png)
+![](images/18.png)

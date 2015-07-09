@@ -14,7 +14,7 @@ class ArrayElement(conts: Array[String]) extends Element {
 
 如果你在定义类时没有使用 extends 关键字，在 Scala 中这个定义类缺省继承自 scala.AnyRef，如同在 Java 中缺省继承自 java.lang.Object。这种继承关系如下图：
 
-![](images\11.png)
+![](images/11.png)
 
 这幅图中也显示了 ArrayElement 和 Array[String] 之间的“组合”关系”(composition)，类 ArrayElement 中定义了对 Array[String]类型对象的一个引用。
 

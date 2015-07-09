@@ -14,7 +14,7 @@ class UniformElement (ch :Char,
 
 结合前面定义的类定义，我们就有了如下图所示的类层次关系：
 
-![](images\13.png)
+![](images/13.png)
 
 Scala 将接受所有的下列赋值，因为赋值表达式的类型符合定义的变量类型：
 

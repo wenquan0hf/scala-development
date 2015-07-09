@@ -35,4 +35,4 @@ package navigation{
 
 此外，Scala 还支持一种比 private 还要严格的访问控制，本例中的 private[this]，只允许在定义该成员的类型中访问，它表示该成员不仅仅只能在定义该成员的类型中访问，而且只能是由该类型本身访问。比如：本例中 speed，使用 protected[this]，speed，和 this.speed 只在定义该成员的实例中可以访问，下面的用法也是不合法的，即使它们也在 Navigator 里面。当由于是新创建的另外的实例，编译出错：
 
-![](images\19.png)
+![](images/19.png)

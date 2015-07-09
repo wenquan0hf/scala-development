@@ -17,5 +17,5 @@ class LineElement(s:String) extends ArrayElement(Array(s)) {
 
 有了新的子类，布局元素的继承级别现在看起来就如下图所示：
 
-![](images\12.png)
+![](images/12.png)
 
