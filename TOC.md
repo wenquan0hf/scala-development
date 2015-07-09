@@ -1,4 +1,4 @@
-- [开始神奇的 Scala编程之旅](start-scala.md)
+- [开始神奇的 Scala 编程之旅](start-scala.md)
 - [起步 Scala](begin-scala.md)
 - [进一步 Scala](further-scala.md)
 - [类和对象 (一)](class-and-objects-one.md)
