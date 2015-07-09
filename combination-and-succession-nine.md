@@ -1,4 +1,5 @@
 # 组合和继承–多态和动态绑定 #
+
 在前面的例子我们看到类型为 Element 的变量可以保存 ArrayElement 类型的对象，这种现象称为“多态”。也就是基类类型的变量可以保存其子类类型的对象，到目前为止我们定义了两个 Element 的子类，ArrayElement 和 LineElement。你还可以定义其它子类，比如：
 
 ```
@@ -13,7 +14,7 @@ class UniformElement (ch :Char,
 
 结合前面定义的类定义，我们就有了如下图所示的类层次关系：
 
-![](images\13.png)
+![](images/13.png)
 
 Scala 将接受所有的下列赋值，因为赋值表达式的类型符合定义的变量类型：
 

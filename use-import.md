@@ -1,4 +1,5 @@
 # 使用 import #
+
 和 Java 一样，Scala 也是通过 import 语句引用其它包中定义的类型，类型引入后，可以使用短名称来引用该类型而无需使用全路径。要注意的 Scala 使用“_” 而非”*”作为通配符。
 
 ```
@@ -55,13 +56,11 @@ def showFruit(fruit:Fruit){
 
 和 Java 相比，Scala 的 import 的使用更加灵活：
 
-
 - 可以出现在文件中任何地方
 - 可以 import 对象（singleton 或者普通对象）和 package 本身
 - 支持对引入的对象重命名或者隐藏某些类型
 
 下面的例子直接引入包名称，而非包中成员，引入包后，可以使用相对名称来指代某个类型（有些类型文件系统的路径）
-
 
 ```
 import java.util.regex

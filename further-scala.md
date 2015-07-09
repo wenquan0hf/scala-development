@@ -1,4 +1,4 @@
-# 进一步Scala #
+# 进一步 Scala #
 
 本篇继续上一篇对 Scala 的整体介绍，本篇进一步解释 Scala 的一些高级特性，当你学完本篇后，就有足够的知识编写一些实用的 Scala 脚本应用了。
 ## 第七步：使用类型参数化数组 ##
@@ -104,7 +104,7 @@ Scala 语言的一个设计目标是让程序员可以同时利用面向对象�
 
 比如 Scala API 定义了 Set 的基 Trait 类型 Set（ Trait 的概念类似于 Java 中的 Interface，所不同的 Scala 中的 Trait 可以有方法的实现），分两个包定义 Mutable （可变）和 Immutable （不可变），使用同样名称的子 Trait。下图为 Trait 和类的基础关系：
 
-![](images\9.png)
+![](images/9.png)
 
 使用 Set 的基本方法如下：
 
@@ -118,7 +118,7 @@ println(jetSet.contains("Cessna"))
 
 Scala 提供的另外一个类型为 Map 类型，Scala 也提供了 Mutable 和 Immutable 两种 Map 类型。
 
-![](images\10.png)
+![](images/10.png)
 
 Map 的基本用法如下（ Map 类似于其它语言中的关联数组如 PHP ）
 

@@ -1,7 +1,8 @@
-# Scala的类层次关系 #
+# Scala 的类层次关系 #
+
 前面我们介绍了 Scala 的类的继承，本篇我们介绍 Scala 语言自身定义的类的层次关系，在 Scala 中，所有的类都有一个公共的基类称为 Any，此外还定义了所有类的子类 Nothing，下面的图给出的 Scala定义的类层次关系的一个概要：
 
-![](images\16.png)
+![](images/16.png)
 
 由于所有的类都继承自 Any，因此 Scala 中的对象都可以使用==,!=,或 equals 来比较，使用##或 hashCode 给出 hash 值，使用 toString 转为字符串。Any 的==和!=定位为 fianl，因此不可以被子类重载。==实际上和 equals 等价，!=和 equals 的否定形式等价，因此重载 equals 可以修改==和!=的定义。
 
@@ -57,7 +58,6 @@ res4: Int = 3
 scala> (-3).abs
 res5: Int = 3
 ```
-
 
 这里解释其工作原理：方法 min，max，until，to 和 abs 都定义在类 scala.runtime.RichInt 里，并且有一个从类 Int 到 RichInt 的隐式转换。当你在 Int 上调用没有定义在 Int 上但定义在 RichInt 上的方法时，这个转换就被应用了。
 

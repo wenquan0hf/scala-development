@@ -1,4 +1,5 @@
 # 组合和继承–使用 override 修饰符 #
+
 在前面的例子 LineElement 使用了 override 来修饰 width 和 height 成员变量，在 Scala 中需要使用 override 来重载父类的一个非抽象成员，实现抽象成员无需使用 override，如果子类没有重载父类中的成员，不可以使用 override 修饰符。
 
 这个规则可以帮助编译器发现一些难以发现的错误，可以增强系统安全进化。比如，如果你把 height 拼写错误为 hight，使用 override 编译器会报错

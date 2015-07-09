@@ -1,4 +1,5 @@
 # 组合和继承–实现类 Element 的 above，beside 和 toString()方法 #
+
 我们接着实现类 Element 的其它方法，如 above, beside 和 toString 方法。
 
 above 方法，意味着把一个布局元素放在另外一个布局元素的上方，也就是把这两个元素的 contents 的内容连接起来。我们首先实现 above 函数的第一个版本：

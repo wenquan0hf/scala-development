@@ -1,4 +1,5 @@
 # 柯里化函数 #
+
 前面我们说过，Scala 允许程序员自己新创建一些控制结构，并且可以使得这些控制结构在语法看起来和 Scala 内置的控制结构一样，在 Scala 中需要借助于[柯里化(Currying)](https://www.wikipedia.org/search-redirect.php?family=wikipedia&search=%E6%9F%AF%E9%87%8C%E5%8C%96%28Currying%29&language=zh&go=++%E2%86%92++&go=Go)，柯里化是把接受多个参数的函数变换成接受一个单一参数（最初函数的第一个参数）的函数，并且返回接受余下的参数而且返回结果的新函数的技术。
 
 下面先给出一个普通的非柯里化的函数定义，实现一个加法函数：
@@ -24,7 +25,6 @@ curriedSum: (x: Int)(y: Int)Int
 scala> curriedSum (1)(2)
 res0: Int = 3
 ```
-
 
 当你调用 curriedSum (1)(2)时，实际上是依次调用两个普通函数（非柯里化函数），第一次调用使用一个参数 x，返回一个函数类型的值，第二次使用参数y调用这个函数类型的值，我们使用下面两个分开的定义在模拟 curriedSum 柯里化函数：
 

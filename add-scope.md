@@ -1,6 +1,9 @@
 # 为访问控制修饰符添加作用域 #
-Scala 的访问修饰符可以添加作用域参数。作用域的语法如下：  
+
+Scala 的访问修饰符可以添加作用域参数。作用域的语法如下：
+  
 private[x]或protected[x]  
+
 其中 x 代表某个包，类或者对象，表示可以访问这个 Private 或的 protected 的范围直到 X。
 
 通过为访问修饰符添加作用域参数，可以非常精确的控制所定义的类型能够被其它类型访问的范围。尤其是可以支持 Java 语言支持的 package private，package protected 等效果。
@@ -32,4 +35,4 @@ package navigation{
 
 此外，Scala 还支持一种比 private 还要严格的访问控制，本例中的 private[this]，只允许在定义该成员的类型中访问，它表示该成员不仅仅只能在定义该成员的类型中访问，而且只能是由该类型本身访问。比如：本例中 speed，使用 protected[this]，speed，和 this.speed 只在定义该成员的实例中可以访问，下面的用法也是不合法的，即使它们也在 Navigator 里面。当由于是新创建的另外的实例，编译出错：
 
-![](images\19.png)
+![](images/19.png)

@@ -1,4 +1,5 @@
 # 组合和继承–调用基类构造函数 #
+
 前面我们定义了两个类，一个为抽象类 Element ，另外一个为派生的实类 ArrayElement。 或许你打算再构造一个新类，这个类使用单个字符串来构造布局元素，使用面向对象的编程方法使得构造这种新类非常容易。比如下面的 LineElement 类：
 
 ```
@@ -16,4 +17,5 @@ class LineElement(s:String) extends ArrayElement(Array(s)) {
 
 有了新的子类，布局元素的继承级别现在看起来就如下图所示：
 
-![](images\12.png)
+![](images/12.png)
+
